@@ -1,0 +1,400 @@
+*{
+    margin:0;
+    padding:0;
+}
+.maindiv{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.mainimg{
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.mainimg img{
+    height: 80vh;
+    width: 100%;
+}
+.div-1{
+    height: 80vh;
+    width: 20%;
+    background-color:rgba(128, 128, 128, 0.573);
+    position: absolute;
+    top: 0px;
+}
+.div-2{
+    height: 250px;
+    width: 400px;
+    border:1px solid #fff;
+    border-radius: 10px;
+    background-color:#ffffff9b;     
+    position: absolute;
+    right: 100px;
+    top: 250px;
+}
+.div-2 h3{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.div-2 p{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.mainbox{
+    height: 150px;
+    width: 300px;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.box-1{
+    height: 100px;
+    width: 150px;
+    border: 1px solid #fff;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+.box-2{
+    height: 100px;
+    width: 150px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 55px;
+    left: 75px;
+}
+
+.mainbox-2{
+    height: 200px;
+    width: 100px;
+    text-align: center;
+    margin-left: 70px;
+    text-align: end;
+    
+}
+#p{
+    padding-top: 20px;
+    color: #fff;
+}
+
+.mainbox-3{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box-3{
+    height:40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.box-4{
+    height:40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.box-5{
+    height:40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.box-6{
+    height:40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.pera{
+    color: #fff;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.maindiv-2{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.div-3{
+    height: 40vh;
+    width: 20%;
+    background-color: gray;
+}
+.div-4{
+    height:  40vh;
+    width: 80%;
+    display: flex;
+   justify-content: space-evenly;
+   margin-top: 30px;
+}
+.icon-2{
+    color: darkcyan;
+    font-size: 100px;
+}
+
+.about{
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.pera-2 p{
+   padding-top: 20px;
+}
+.icon-3{
+    color: darkcyan;
+    font-size: 100px;
+}
+
+.com{
+    color: darkcyan;
+    font-weight: bold;
+    font-size:20px;
+    padding-top: 20px;
+}
+.pera-3 p{
+    padding-top: 20px;
+}
+.maindiv-3{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+
+.div-5{
+    height: 50vh;
+    width: 20%;
+    background-color: gray;
+}
+.div-6{
+    height: 50vh;
+    width: 80%;
+}
+.box-7{
+    height: 380px;
+    width: 850px;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.box-8{
+    height: 380px;
+    width: 850px;
+    border: 1px solid black;
+    position: absolute;
+    top:1090px;
+    left: 410px;
+}
+.box-8 h3{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+h3{
+    margin-left: 10px;
+    color: darkcyan;
+}
+.maindiv-4{
+    height:50vh;
+    width:100%;
+    display: flex;
+}
+
+.div-7{
+    height: 50vh;
+    width: 20%;
+    background-color:gray ;
+}
+.div-8{
+    height: 50vh;
+    width:80%;
+    margin-top: 40px;
+}
+#h3{
+    margin-left: 100px;
+}
+.lorem{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo{
+    height:200px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.logo-1{
+    height: 60px;
+    width: 170px;
+    border: 2px solid black;
+    text-align: center;
+}
+.logo-2{
+    height: 60px;
+    width: 170px;
+    border: 2px solid black;
+    text-align: center;
+}
+.logo-3{
+    height: 60px;
+    width: 170px;
+    border: 2px solid black;
+    text-align: center;
+}
+.logo-4{
+    height: 60px;
+    width: 170px;
+    border: 2px solid black;
+    text-align: center;
+}
+.logo-5{
+    height: 60px;
+    width: 170px;
+    border: 2px solid black;
+    text-align: center;
+}
+.logo-6{
+    height: 60px;
+    width: 170px;
+    border: 2px solid black;
+    text-align: center;
+}
+.logo-7 img {
+    padding-top: 10px;
+}
+.logo-7{
+    height: 60px;
+    width: 170px;
+    border: 2px solid black;
+    text-align: center;
+}
+.logo-8{
+    height: 60px;
+    width: 170px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.maindiv-5{ 
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.div-9{
+    height: 35vh;
+    width: 20%;
+    background-color: gray;
+}
+.div-10{
+    height: 40vh;
+    width: 80%;
+    position: relative;
+    display: flex;
+}
+
+.box-9{
+    height: 250px;
+    width: 450px;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.box-10{
+    height: 250px;
+    width: 450px;
+    border: 1px solid black;
+    position: absolute;
+    top:30px;
+    left:110px;
+}
+.Talk{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.main{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.main p{
+    margin-top:10px ;
+}
+
+.div-11{
+    height: 40vh;
+    width: 600px;
+    background-color: white;
+}
+.div-12{
+    height: 40vh;
+    width: 500px;
+    margin-left: 40px;
+}
+.div-12 input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+.div-12 textarea{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-top:30px ;
+}
+.div-12 button{
+    background-color: #fff;
+    border: none;
+    padding: 2px 10px;
+    border-bottom: 1px solid black;
+    color: gray;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.img img{
+    padding: 10px;
+}
+.img{
+    margin-left: 30px;
+}
