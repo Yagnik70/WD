@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <form onsubmit="return validateForm()" align="center" >
+        <table border="1px"  cellspacing="5" align="center" style="padding: 20px;">
+            <th colspan="6"> <h2  style="border-bottom: 4px solid orange; width: 200px;margin-left: 130px; padding-bottom: 10px;" >Registration Form</h2></th>
+            <tr>
+                <td colspan=""><i class="fas fa-envelope" style="padding: 5px 15px 0px 0px; border-right: 1px solid;"></i><input type="text" id="email" placeholder="Email" style="border: none;"></td>
+            </tr>
+            <tr>
+                <td colspan=""><i class="fas fa-lock" style="padding: 5px 15px 0px 0px; border-right: 1px solid;"></i><input type="password" id="password" placeholder="Password" style="border: none"></td>
+            </tr>
+            <tr>
+                <td colspan=""> <i class="fas fa-lock"  style="padding: 5px 15px 0px 0px; border-right: 1px solid;"></i><input type="password" id="confirmPassword" placeholder="Re-type password" style="border: none"></td>
+            </tr>
+            <tr>
+                <td colspan="0"><i class="fas fa-user" style="padding: 5px 15px 0px 0px; border-right: 1px solid;"></i><input type="text" id="firstName" placeholder="First Name" style="border: none"></td>
+                <td colspan="0"><i class="fas fa-user" style="padding: 5px 10px; border-right: 1px solid;"></i> <input type="text" id="lastName" placeholder="Last Name" style="border: none"></td>
+            </tr>
+            <tr>
+                <td style="border: none;">
+                    <input type="radio" name="gender" id="gender" value="male"> Male
+                    <input type="radio" name="gender" id="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none;">
+                    <select name="home" id="country">
+                        <option value="">Select a country</option>
+                        <option value="IND">IND</option>
+                        <option value="USA">USA</option>
+                        <option value="AUS">AUS</option>
+                    </select>
+                </td>
+            </tr>
+            <tr style="border: none;">
+                <td style="border: none; "><input type="checkbox" id="terms" style="margin-left: 25px;"> I agree to the terms and conditions</td>
+            </tr>
+            <tr style="border: none;">
+                <td style="border: none;"><input type="checkbox" id="newsletter"> I want to receive the newsletter</td>
+            </tr>
+            <tr style="border: none;">
+                <td style="border: none;"><button type="submit" style="width: 100%; margin-left: 110px; padding: 10PX; background-color: orange; border: none; border-radius: 10px; color: #fff; font-weight: 500; font-size: 15px;">Register</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script>
+    function validateForm() {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirmPassword").value;
+        var firstName = document.getElementById("firstName").value;
+        var lastName = document.getElementById("lastName").value;
+        var gender = document.getElementById("gender").checked;
+        var terms = document.getElementById("terms").checked;
+
+        if (!email) {
+            alert("Please enter your email.");
+            return false;
+        }
+      
+        if (password.length < 6) {
+            alert("Password must be at least 6 characters long.");
+            return false;
+        }
+        if (password !== confirmPassword) {
+            alert("Passwords not match.");
+            return false;
+        }
+        if (!firstName || !lastName) {
+            alert("Please enter your first and last names.");
+            return false;
+        }
+        if (!gender) {
+            alert("Please Enter a one gendar.");
+            return false;
+        }
+    
+        if (!terms) {
+            alert("Please agree to the terms and conditions.");
+            return false;
+        }
+        alert("Registration successful!");
+        return true;
+    }
+</script>
+</html>
