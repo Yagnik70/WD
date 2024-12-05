@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.parent{
+    height: auto;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_1{
+    height: 40px;
+    width: 100%;
+    background-color:aliceblue;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid gray ;
+
+}
+.title_1{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.img_1{
+    height: 130px;
+    width: 130px;
+    /* border: 2px solid red; */
+    background-image: url(../IMG/Table_img_1.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+
+.view_page{
+    height: 230px;
+    width: 250px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    display: none;
+
+}
+.box_1{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Table_img_5.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.box_2{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Table_img_2.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.main_box{
+    height: 230px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.view_page_2{
+    height: 230px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    display: none;
+
+}
+
+.view_page_3{
+    height: 230px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    display: none;
+
+}
+
+.view_page_4{
+    height: 230px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    display: none;
+
+}
+.view_page_5{
+    height: 230px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    display: none;
+
+}
+
+.view_page_6{
+    height: 230px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    display: none;
+
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: royalblue;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: orangered;
+    color: #fff;
+}
+
+
+.img_2{
+    height: 130px;
+    width: 130px;
+    /* border: 2px solid red; */
+    background-image: url(../IMG/Sofa_img_1.avif);
+    background-position: center;
+    background-size: contain;
+
+}
+
+.box_3{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Sofa_img_2.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.box_4{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Sofa_img_3.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+
+
+.img_3{
+    height: 130px;
+    width: 130px;
+    /* border: 2px solid red; */
+    background-image: url(../IMG/Phone_img_1.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+
+.box_5{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Phone_img_2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box_6{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Phone_img_3.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+
+.img_4{
+    height: 130px;
+    width: 130px;
+    /* border: 2px solid red; */
+    background-image: url(../IMG/Bag_img_1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.box_7{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Bag_img_2.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box_8{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Bag_img_3.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+
+.img_5{
+    height: 130px;
+    width: 130px;
+    /* border: 2px solid red; */
+    background-image: url(../IMG/Headphone_img_1.webp);
+    background-position: center;
+    background-size: contain;
+
+}
+
+.box_9{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Headphone_img_2.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.box_10{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/Headphone_img_3.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+
+.img_6{
+    height: 130px;
+    width: 130px;
+    /* border: 2px solid red; */
+    background-image: url(../IMG/SmartWatch_img_1.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+
+.box_11{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/SmartWatch_img_2.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.box_12{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid red; */
+    background-image: url(../IMG/SmartWatch_img_3.webp);
+    background-position: center;
+    background-size: contain;
+}
+
+
