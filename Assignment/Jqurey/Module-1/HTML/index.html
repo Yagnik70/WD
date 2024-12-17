@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .box-1{
+            height: 300px ;
+            width: 500px;
+            background-color: black;
+            color: white;
+            text-align: justify;
+        }
+        button{
+            margin:30px;
+        }
+        button {
+            padding: 20px 30px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="btn-1">slide-up</button>
+        <button id="btn-2">slide-down</button>
+        <button id="btn-3">slide-stop</button>
+    </div>
+    <div class="box-1" id="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi iste tempora, eveniet repellat illum quibusdam ipsum modi sunt perferendis comvoluptas paria turp erferendis commodi voluptas pariatur, aperiam, quaerat in culpa odio ea vero sunt perferendis comv! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, facere. Illum deleniti harum eum unde veritatis quis quod quos ipsum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa corrupti totam, itaque voluptatibus adipisci et modi, iusto recusandae nesciunt amet qui accusantium doloremque nulla. Amet obcaecati reprehenderit dolores enim quam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ex dolore dolorem ut. Dolore, doloremque non consequatur doloribus beatae culpa adipisci veniam, corporis accusantium odit ipsa debitis voluptate. Laborum sequi explicabo atque in minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia neque ea omnis, provident perferendis error quaerat pariatur. Beatae sapiente numquam consectetur placeat pariatur eum eveniet. Itaque libero eos vitae culpa.
+    
+    </div>
+</body>
+<script>
+     $(document).ready(function(){
+        $("#btn-1").click(function(){
+            $("#box").slideUp(3000)
+        })
+    })
+    $(document).ready(function(){
+        $("#btn-2").click(function(){
+            $("#box").slideDown(3000)
+        })
+    })
+    $(document).ready(function(){
+        $("#btn-3").click(function(){
+            $("#box").stop(3000)
+        })
+    })
+
+
+</script>
+</html>
