@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(../IMG/images_logo-removebg-preview.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.services-logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(../IMG/images_logo-removebg-preview.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.header{
+    height: auto;
+    width: 100%;
+    background-image: url(../IMG/pexels-hyukman-kwon-2542429-13212898.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home_page_img{
+    /* height: 350px;
+    width: 400px; */
+    height: 19rem;
+    background-image: url(../IMG/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.home_page_img_2{
+    /* height: 350px;
+    width: 400px; */
+    height: 19rem;
+    /* width: 30   ; */
+    background-image: url(../IMG/walking-v1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.home_section_2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/free-photo-of-back.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about_header{
+    height: 550px;
+    width: 100%;
+    background-image: url(../IMG/pexels-lauren-forson-1230401-2801710.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission_img{
+    height: 400px;
+    width: 500px;
+    background-image: url(../IMG/outdoor-image-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_section_1{
+    height: auto;
+    width: 100%;
+}
+.child_1{
+    height: 400px;
+    width: 500px;
+    /* background-color: aqua; */
+}
+
+.services_header{
+    height: 550px;
+    width: 100%;
+    background-image: url(../IMG/pexels-portrenk-23526689.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+
+
+.services_img_1{
+    height: 300px;
+    width: 500px;
+    background-image: url(../IMG/outdoor-image-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.services_img_2{
+    height: 300px;
+    width: 500px;
+    background-image: url(../IMG/services-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services_img_3{
+    height: 300px;
+    width: 500px;
+    background-image: url(../IMG/services-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services_img_4{
+    height: 300px;
+    width: 500px;
+    background-image: url(../IMG/outdoor-image-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trips_box_1{
+    height: 450px;
+    width: 500px;
+}
+.trips_box_2{
+    height: 450px;
+    width: 500px;
+}
+.trips_box_3{
+    height: 450px;
+    width: 500px;
+}
+
+.trips_box_4{
+    height: 450px;
+    width: 500px;
+}
+.sectio_2_services{
+    height: auto ;
+    width:auto;
+    /* margin: 0px 20px ; */
+}
+
+.contact_header{
+    height: 550px;
+    width: auto;
+    background-image: url(../IMG/pexels-owen-casey-86002890-8947289.jpg);   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.projects_header{
+    height: 550px;
+    width: auto;
+    background-image: url(../IMG/premium_photo-1661962871593-8c3dde633373-projects.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    height:400px ;
+    width: 50%;
+    /* margin: 100px auto; */
+    /* border: 1px solid black;px  */
+    box-shadow: 0px 0px 10px 3px gray;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+
+}
+.slide-2{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+}
+.slide-3{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+}
+.button{
+    margin: 0 auto;
+}
+.one{
+    height: 50px;
+    width: 60px;
+    border: 2px solid black;
+
+}
+@media  (max-width: 450px) {
+    .mission_img{
+        height: 400px;
+        width: 100%;
+    }
+    .child_1{
+        height: 450px;
+        width: 100%;
+        background-size: contain;
+    }
+    .trips_box_1{
+        height: auto;
+        width: 300px;
+        
+    }
+    .services_img_1{
+        height: 200px;
+        width: 300px;
+    }
+    .trips_box_2{
+        height: auto;
+        width: 300px;
+    }
+    .services_img_2{
+        height: 200px;
+        width: 300px;
+    }
+    .trips_box_3{
+        height:auto;
+        width: 300px;
+    }
+    .services_img_3{
+        height: 200px;
+        width: 300px;
+    }
+    .trips_box_4{
+        height: autox;
+        width: 300px;
+    }
+    .services_img_4{
+        height: 200px;
+        width: 300px;
+    }
+    .main{
+        height:250px ;
+        width: 80%;
+    }
+  }
+

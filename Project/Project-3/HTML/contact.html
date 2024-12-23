@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="contact_header">
+
+        <nav class="">
+            <div class="h-16 bg-white opacity-50 bg-transparent flex justify-evenly items-center">
+                <div class= "text-white  ">
+                    <!-- <h2 class="text-3xl font-bold -tracking-widest ">OUTDOOR</h2>
+                    <p class="text-xl -tracking-tighter font-semibold">ADVENTURE</p> -->
+                    <div class="logo"></div>
+                </div>
+                <div class="hidden md:flex gap-6  items-center text-center text-xl hover:tracking-wider font-semibold text-black   ">
+                    <p id="" class="cursor-pointer"><a href="home.html">Home</a></p>
+                    <p  id=" " class="cursor-pointer "><a href="about.html">About</a></p>
+                    <p id=" " class="cursor-pointer "><a href="services.html">Services</a></p>
+                    <p id=" " class="cursor-pointer "><a href="projects.html">Projects</a></p>
+                    <p id=" " class="cursor-pointer "><a href="contact.html">Contact</a></p>
+                </div>
+                <div>
+                    <button class="hidden md:block bg-rose-600  px-4 py-3 text-xl font-semibold text-white rounded-full">TAKE ACTION</button>
+                </div>
+                <div class="md:hidden bg-rose-600 px-3 py-2 text-white" id="menu_togale">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="hidden bg-white opacity-50 text-black shadow-lg" id="phone_togale">
+                    <ul class=" flex flex-col gap-5 py-6  text-center font-semibold text-xl">
+                        <li ><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="mt-44 text-center">
+                <div  class="text-6xl font-bold text-white">Contact Us</div>
+            </div>
+        </section>
+
+    </header>
+    <section>
+        <div class="flex flex-col md:flex-row bg-white rounded-lg shadow-lg">
+           
+            <div class="w-full md:w-2/3 p-8">
+                <h2 class="text-3xl font-bold mb-6">We're Ready, Let's Talk.</h2>
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-600 mb-2">Your Name</label>
+                        <input type="text" id="name" placeholder="Your Name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-600 mb-2">Email Address</label>
+                        <input type="email" id="email" placeholder="Email Address" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-600 mb-2">Message</label>
+                        <textarea id="message" placeholder="Message" rows="5" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"></textarea>
+                    </div>
+                    <button type="submit" class="bg-rose-500  text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300">
+                        SEND MESSAGE
+                    </button>
+                </form>
+            </div>
+
+           <div class="flex flex-col gap-5 justify-center  p-7">
+                <div class="text-4xl font-bold">Contact Info</div>
+                <div>
+                    <div class="text-2xl font-bold">Address​</div>
+                    <div class="text-lg pt-2">123 Fifth Avenue, NY 10160, New York, USA</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold">Email Us</div>
+                    <div class=" text-lg pt-1">contact@example.com</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold">Call Us</div>
+                    <div class=" text-lg pt-1">800-123-456</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold ">Follow Us</div>
+                    <div  class="flex  gap-4 pt-4">
+                        <div class="h-[50px] w-[50px] bg-rose-500 flex justify-center items-center rounded-full ">
+                            <i class="fa-brands fa-facebook-f text-white text-xl"></i>
+                        </div>
+
+                        <div class="h-[50px] w-[50px] bg-rose-500 flex justify-center items-center rounded-full ">
+                            <i class="fa-brands fa-twitter  text-white text-xl"></i>
+                        </div>
+
+                        <div class="h-[50px] w-[50px] bg-rose-500 flex justify-center items-center rounded-full ">
+                            <i class="fa-brands fa-youtube text-white text-xl"></i>
+                        </div>
+                      
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+
+</body>
+<script>
+    document.getElementById("menu_togale").addEventListener("click",()=>{
+    const phonemenu = document.getElementById("phone_togale")
+    phonemenu.classList.toggle("hidden")
+})
+</script>
+</html>
